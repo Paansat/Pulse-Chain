@@ -13,16 +13,16 @@
 - Member 2: Anwaya V - College of engineering munnar
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://drive.google.com/file/d/1YEFUNmNUwWJK4LEduc_k8CE1Pt_NaJVG/view?usp=drivesdk](https://drive.google.com/file/d/1YEFUNmNUwWJK4LEduc_k8CE1Pt_NaJVG/view?usp=drivesdk)
 
 ### Project Description
-[2-3 lines about what your project does]
+PulseChain is a full-stack blood donation platform that connects donors and seekers in real time. Donors can toggle availability and earn reward points, while seekers send emergency blood requests to nearby donors. Built with React, Node.js, and MongoDB, it enables fast alerts, live leaderboard tracking, and scalable life-saving coordination.
 
 ### The Problem statement
-[What problem are you solving?]
+In medical emergencies, finding compatible blood donors quickly is still slow, manual, and unreliable. Hospitals and families often depend on phone calls, social media posts, or blood banks that may not have real-time availability. There is no unified system that connects nearby, available donors instantly to patients in need. This delay can cost critical time — and lives.
 
 ### The Solution
-[How are you solving it?]
+PulseChain provides a real-time digital platform that directly connects blood donors and seekers. Donors can register, update their availability, and earn reward points for participation. Seekers can instantly send emergency blood requests, which are routed to nearby compatible donors. The system uses a centralized backend with live updates, enabling faster response, better coordination, and efficient life-saving support.
 
 ---
 
@@ -31,25 +31,22 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [HTML,css,javascript,PostgreSQL]
+- Frameworks used:  React
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Tools used: [e.g., VS Code, Git,render]
+
+
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:Real-Time Emergency Alerts – Seekers can send instant blood requests that notify nearby compatible donors immediately.
+- Feature 2:Donor Availability Toggle – Donors can update their availability status in real time, ensuring only active donors receive alerts.
+- Feature 3: Smart Leaderboard & Reward System – Donors earn points for participation, encouraging regular engagement through gamification.
+- Feature 4: Full-Stack Scalable Architecture – Built with React, Node.js, and MongoDB, enabling secure data storage, API-based communication, and future scalability.
 
 ---
 
@@ -59,21 +56,14 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[Installation commands -npm install, npm install express cors dotenv]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[Run commands - npm start]
 ```
 
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
 
 ---
 
@@ -83,26 +73,26 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1][(Add screenshot 1 here with proper name)](https://drive.google.com/file/d/11EJScf2LLI5PyatuQYTCX_KsOTF_FwmO/view?usp=drivesdk)
+PulseChain Home Page showcasing the main landing interface with navigation menu, welcome message, and quick action buttons for donors and seekers to access the platform instantly.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2][(Add screenshot 2 here with proper name)](https://drive.google.com/file/d/1RLD8KEsC_ZOi4aUVn3eqjPocgEDddCib/view?usp=drivesdk)
+User Registration Interface where donors or seekers can create an account by entering personal details, selecting blood group, and choosing their role within the platform.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3][(Add screenshot 3 here with proper name)](https://drive.google.com/file/d/1V3R_0EuaUTETi0NIB2ey5wl52vK-cRe_/view?usp=drivesdk)
+Donor Dashboard displaying nearby active donors, search and filter options by blood group, and quick contact functionality to enable fast emergency response coordination.
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram][(docs/architecture.png)](https://drive.google.com/file/d/1Ce89uod5nPqOomFpN3BrQ9hga4xCINVc/view?usp=drivesdk)
+PulseChain follows a full-stack client–server architecture where the React frontend handles user interaction and communicates with a Node.js and Express backend through REST APIs. The backend manages authentication, donor availability, emergency requests, and reward calculations, while applying location-based filtering (5 km logic). All data, including users, requests, and points, is stored securely in MongoDB. This modular architecture ensures scalability, real-time coordination, and efficient life-saving response during emergencies.
 
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+The workflow begins with user authentication, where donors or seekers register and log in through the React frontend. Donors can update their availability status, while seekers submit emergency blood requests. The backend processes requests, applies blood group matching and 5 km location filtering, retrieves eligible donors from MongoDB, and returns results to the frontend. Upon successful donation, reward points are updated and reflected in the leaderboard system.
 
 ---
 
@@ -137,7 +127,7 @@ List the key features of your project:
 
 #### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+**Base URL:** `[https://api.yourproject.co](https://drive.google.com/file/d/1YEFUNmNUwWJK4LEduc_k8CE1Pt_NaJVG/view?usp=drivesdk)m`
 
 ##### Endpoints
 
@@ -361,9 +351,9 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+[[Add your demo video link here - YouTube, Google Drive, etc.]](https://drive.google.com/file/d/1YEFUNmNUwWJK4LEduc_k8CE1Pt_NaJVG/view?usp=drivesdk)
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+The video demonstrates the complete PulseChain user journey, starting with user authentication and role selection (donor or seeker). It showcases the donor dashboard where users can toggle availability and view the leaderboard, followed by the seeker interface used to send emergency blood requests. The demo highlights real-time request handling, donor matching logic, and dynamic leaderboard updates. Technically, it illustrates the interaction between the React frontend, Node.js/Express backend APIs, and MongoDB database, emphasizing full-stack integration, REST API communication, and scalable system design.
 
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
@@ -372,7 +362,7 @@ python script.py -v --format json data.json
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-If you used AI tools during development, document them here for transparency:
+If you used AI tools during development, document them here for transparency:chatgpt, github copilot
 
 **Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
 
@@ -400,9 +390,9 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Anwaya V]: [Specific contributions - e.g., Frontend development.]
+- [Parvathy Abhilash]:  e.g., Backend development]
+- 
 
 ---
 
