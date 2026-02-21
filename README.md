@@ -6,11 +6,11 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Hack Wave
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Parvathy Abhilash - College of engineering munnar
+- Member 2: Anwaya V - College of engineering munnar
 
 ### Hosted Project Link
 [mention your project hosted link here]
